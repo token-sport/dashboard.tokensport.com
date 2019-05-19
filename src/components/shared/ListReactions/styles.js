@@ -12,6 +12,11 @@ export const ListReactionsContainer = styled.div`
     overflow-y: scroll;
   }
 
+  & > div > p {
+    font-family: Nunito, sans-serif;
+    color: white;
+  }
+
   & > h4 {
     font-family: Nunito, sans-serif;
     font-weight: 400;
